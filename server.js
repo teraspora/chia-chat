@@ -24,6 +24,6 @@ io.on(`connection`, socket => {
   });
 });
 
-http.listen(process.env.port || 5000, _ => {
+http.listen(process.env.PORT || 5000, _ => {
   console.log(`Chia is listening on port 5000.`);
 });
