@@ -16,7 +16,7 @@ app.get(`/`, (req, res) => {
 io.on(`connection`, socket => {
   console.log(`Super-ussum!   A user has successfully been connected!`);
   socket.on(`Chia Chat Message`, msg => {
-    io.emit(`Chia Chat Message`, msg);
+    io.broadcast.emit(`Chia Chat Message`, msg);
     console.log(`Message: ${msg}`);
   });
   socket.on(`disconnect`, _ => {
