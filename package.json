@@ -4,6 +4,21 @@
   "description": "Proof-of-concept socket.io-based chat app",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^2.3.0"
-  }
+    "socket.io": "^4.4.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teraspora/chia-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teraspora/chia-chat/issues"
+  },
+  "homepage": "https://github.com/teraspora/chia-chat#readme"
 }
